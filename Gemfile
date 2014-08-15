@@ -6,6 +6,7 @@ gem 'rails', '4.1.4'
 # Use oracle as the database for Active Record
 #gem 'ruby-oci8'
 gem 'ruby-oci8', '~> 2.1.0'
+gem 'rake', '~> 0.9.0'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
 # Use Uglifier as compressor for JavaScript assets
@@ -39,5 +40,6 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-gem 'activerecord-oracle_enhanced-adapter', :git => 'git://github.com/rsim/oracle-enhanced.git'
+#gem 'activerecord-oracle_enhanced-adapter', :git => 'git://github.com/rsim/oracle-enhanced.git'
+gem 'activerecord-oracle_enhanced-adapter', "1.5.5"
 
